@@ -24,6 +24,22 @@
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 600px){
+    .head{
+        width: 100%;
+        height: 10vh;
+        background-color: var(--bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .second a{
+        float: none;
+    width: 100%;
+    }
+}
+
 .first{
     width: 12%;
     height: 7vh;
@@ -88,7 +104,48 @@
 .home{
     width: 100%;
     height: 700px;
-    background-image: url(images/10\ Must-Grow\ Vegetables\ to\ Plant\ in\ Your\ Garden\ This\ Year.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* GOODS */
+.goods{
+    width: 100%;
+    height: 750px;
+    background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ABOUT */
+.about{
+    width: 100%;
+    height: 750px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* REVIEW */
+.review{
+    width: 100%;
+    height: 750px;
+    background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTACT */
+.contact{
+    width: 100%;
+    height: 750px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
